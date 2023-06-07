@@ -1,0 +1,66 @@
+import {StyleSheet} from 'react-native';
+import {responsiveHeight} from 'react-native-responsive-dimensions';
+export const styles = StyleSheet.create({
+  logoStyle: {
+    width: 100,
+    height: 100,
+    alignSelf: 'center',
+    borderRadius: 2,
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    borderTopLeftRadius: 20,
+    borderTopRightRadius: 20,
+    position: 'absolute',
+    top: 60,
+  },
+  headingStyle: {
+    fontSize: responsiveHeight(4),
+    alignSelf: 'center',
+    color: '#000',
+    position: 'absolute',
+    top: 170,
+    fontWeight: '600',
+  },
+  inputField: {
+    alignSelf: 'center',
+    color: 'black',
+    width: '90%',
+    height: 50,
+    borderRadius: 10,
+    borderWidth: 0.5,
+    paddingLeft: 20,
+    marginTop: 240,
+  },
+
+  signUpButton: {
+    alignSelf: 'center',
+    width: '80%',
+    height: 50,
+    borderRadius: 10,
+    borderWidth: 0.5,
+    paddingLeft: 20,
+    backgroundColor: '#f6b092',
+    marginTop: 30,
+  },
+  loginButton: {
+    alignSelf: 'center',
+    width: '80%',
+    height: 50,
+    borderRadius: 10,
+    borderWidth: 0.5,
+    paddingLeft: 20,
+    backgroundColor: '#f6b092',
+  },
+  signUp: {
+    alignSelf: 'center',
+    marginTop: 20,
+  },
+  buttonText: {
+    color: '#088F8F',
+    fontSize: 30,
+    alignSelf: 'center',
+    marginLeft: -20,
+    fontWeight: '600',
+  },
+  errorMessage: {color: 'red', fontSize: 15, marginTop: 390, left: 30},
+});

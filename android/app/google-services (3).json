@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "240171520477",
+    "project_id": "shopaholic-ecommerece",
+    "storage_bucket": "shopaholic-ecommerece.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240171520477:android:2efbd1d1dc1a244857e634",
+        "android_client_info": {
+          "package_name": "com.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240171520477-287fhv7ib00vodni436kqvg9budvs1ig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOS2E5iBuFflAhfEfJ3cxruKeyOEmEmZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240171520477-287fhv7ib00vodni436kqvg9budvs1ig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
